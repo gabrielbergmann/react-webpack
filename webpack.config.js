@@ -4,6 +4,7 @@ const path = require('path');
 const webpack = require('webpack')
 
 module.exports = {
+    console.log('Natan Narigudo')
     devtool: 'soruce-map',
     entry: [
         'react-hot-loader/patch',
